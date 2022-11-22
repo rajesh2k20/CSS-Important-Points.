@@ -1,0 +1,44 @@
+.d1{
+
+      background-color:  rgb(255, 0, 0);
+
+      height: 50vh;
+      width: 50vw;
+
+}
+
+.d2{
+     
+    background-color:  rgb(255, 255, 0);
+
+    height:50%;
+    width:50%;
+
+}
+
+
+/* Notes :-
+
+  Units of CSS
+
+                /  \
+               /     \
+         Absolute   Relative
+
+         Absolute 1)  cm
+                  2) inch
+                  3) px   { 96 px= 1 inc=  2.54 cm}
+
+
+        Relative  1)  percentage { Relative to width / height of parent }.
+
+                  2)  vh(viewput height)  relative to  display height .
+                      vw(viewput width ) relative to  display width.
+                   
+                  3)  rem  :  relative to font size of root of document (html).
+
+                  4)  em   : relative to  font size of parent .
+                  
+ */
+
+
