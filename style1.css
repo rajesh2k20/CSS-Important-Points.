@@ -33,6 +33,7 @@
         Relative  1)  percentage { Relative to width / height of parent }.
 
                   2)  vh(viewput height)  relative to  display height .
+
                       vw(viewput width ) relative to  display width.
                    
                   3)  rem  :  relative to font size of root of document (html).
@@ -42,5 +43,15 @@
  */
 
 Note :  Pseudo class not controlled by dynamic behaviour.
+
+
+/* The box model has the following rules:
+
+The dimensions of a block element are calculated by width, height, padding, borders, and margin.
+If no height is specified, a block element will be as high as the content it contains, plus padding.
+If no width is specified, a non-floated block element will expand to fit the width of its parent minus padding.
+The height of an element is calculated by the content’s height.
+The width of an element is calculated by the content’s width.
+By default, padding and border are not part of the width and height of an element. */
 
 
